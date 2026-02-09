@@ -1,0 +1,608 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:
+    Playpen Sans,
+    sans-serif;
+  width: auto;
+}
+
+:root {
+  --title-text: #d49a3a;
+  --white: #fff;
+  --para-text: #666666;
+  --text-color: #ffffff67;
+  --header-text: #39311d;
+  --icon-color-1: #d49a3a;
+  --form-bg: #39311d;
+  --input-form: #4b3f22;
+  --progress-bar-bg: #0a686e;
+  --footer-bg: #042628;
+}
+
+/* Basic Styling */
+ul li {
+  list-style: none;
+}
+
+i {
+  color: var(--icon-color-2);
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (min-width: 800px),(max-width: 1800px){
+  .mt-10{
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ms-lg-8 {
+    margin-left: 8rem;
+  }
+  .mt-lg-15 {
+    margin-top: 15rem;
+  }
+  .fs-lg-4 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  .w-10 {
+    max-width: 10rem;
+  }
+  .bg-brown {
+    background-color: var(--form-bg);
+  }
+  .width{
+    width: auto;
+  }
+  .width-25{
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .w-10 {
+    width: 100%;
+  }
+
+  .ms-lg-8 {
+    margin-right: 2rem;
+  }
+  .fs-lg-4 {
+    font-size: 2rem;
+  }
+  .width{
+    width: auto;
+  }
+  .width-25{
+    width: 100%;
+  }
+}
+
+/* Hero Section Styling */
+.hero-wrap {
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  background: url(/src/Images/hero-bg.jpeg) center/cover no-repeat fixed;
+}
+
+.hero-wrap .card .container .row .heading span {
+  font-family: Roboto, sans-serif;
+}
+
+.hero-wrap .card .container .row .heading p a {
+  font-family: roboto, sans-serif;
+}
+
+.hero-wrap .card .container .row .heading p .btn-1 {
+  background-color: var(--icon-color-1);
+}
+
+
+/* Hero-Pages Section Styling */
+.hero-wrap-pages {
+  height: 90vh;
+  min-height: 100%;
+  position: relative;
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.2), rgba(29, 56, 55, 0.959)), url(/src/Images/pages-main-bg.jpg) center/cover no-repeat fixed;
+}
+
+.hero-wrap-pages .card .container .row .heading span {
+  font-family: Roboto, sans-serif;
+  color: var(--text-color);
+}
+
+.hero-wrap-pages .card .container .row .heading p a {
+  font-family: roboto, sans-serif;
+}
+
+.hero-wrap-pages .card .container .row .heading p .btn-1 {
+  background-color: var(--icon-color-1);
+}
+
+
+/* Intro Section Styling */
+.intro {
+  background-color: #f3f0eb;
+}
+
+.intro .container-xl .row .subheading {
+  font-family: roboto, sans-serif;
+  color: var(--title-text);
+}
+
+.intro .container-xl .row p {
+  font-family: roboto, sans-serif;
+  color: var(--para-text);
+}
+
+.intro .container-xl .row .card .icon {
+  background: var(--icon-color-1);
+}
+
+.intro .container-xl .row .forms {
+  background: var(--form-bg);
+}
+
+.intro .container-xl .row .forms .row {
+  background-color: var(--progress-bar-bg);
+}
+
+.intro .container-xl .row .forms .row .fund-raised span i {
+  font-size: 4rem;
+  color: var(--icon-color-1);
+}
+
+.intro .container-xl .row .forms .row .text span {
+  color: var(--title-text);
+  font-family: roboto, sans-serif;
+  font-size: 0.8rem;
+}
+
+.intro .container-xl .row .appointment .form-group label {
+  color: var(--title-text);
+  font-family: roboto, sans-serif;
+  font-size: 0.8rem;
+}
+
+.intro .container-xl .row .appointment .form-group .form-control {
+  font-family: roboto, sans-serif;
+  color: white;
+  background-color: var(--input-form);
+  border: 0;
+}
+
+.intro .container-xl .row .appointment .button .btn {
+  background-color: var(--icon-color-1);
+  font-family: roboto, sans-serif;
+}
+
+
+/* Statistics Section Styling */
+.statistics{
+  height: 90vh;
+  min-height: 100%;
+  position: relative;
+  background: linear-gradient(to top, rgb(1, 81, 83, 0.6), rgba(1, 81, 83, 0.8)), url(/src/Images/statistics-bg.jpg) center/cover no-repeat fixed;
+}
+
+.statistics .container h6{
+  font-family: roboto, sans-serif;
+}
+
+.statistics .container .card h5{
+  font-family: roboto, sans-serif;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+}
+
+
+/* Causes Section Styling */
+.causes .container .row .subheading{
+  color: #d49a3a;
+  font-family: roboto, sans-serif;
+}
+
+
+.causes .container .row span{
+  color: var(--para-text);
+  font-family: roboto, sans-serif;
+}
+
+.causes .container .row strong{
+  color: var(--header-text);
+}
+
+.causes .container .row .goal{
+  color: var(--progress-bar-bg);
+}
+
+.causes .container .row .carousel-inner .card{
+  background: #f3f0eb;
+}
+
+.causes .container .row .carousel-inner .card-text{
+  color: var(--para-text);
+}
+
+.causes .container .row .carousel-inner .carousel-item .card .card-body a{
+  background-color: var(--icon-color-1);
+  top: 35%;
+  left: 38%;
+}
+
+.causes .container .row .carousel-inner .carousel-item .card .card-body .progress-desc{
+  background-color: #dddad6;
+}
+
+.causes .container .row .carousel-inner .carousel-item .card:hover .card-body .progress-desc{
+  background-color: var(--icon-color-1);
+}
+
+.causes .container .row .carousel-inner .carousel-item .card .card-body .progress-bar{
+  background-color: var(--progress-bar-bg);
+}
+
+.causes .container .row .carousel button{
+  color: transparent;
+}
+
+
+/* Volunteer-Img Section Styling */
+.bg-img{
+  height: 90vh;
+  min-height: 100%;
+  position: relative;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/src/Images/volunteer-bg.jpg) center/cover no-repeat fixed;
+}
+
+.bg-img .container h6{
+  font-family: roboto, sans-serif;
+}
+
+.bg-img .container .buttons .btn{
+  font-family: roboto, sans-serif;
+}
+
+.bg-img .container .buttons .btn-1{
+  background-color: var(--icon-color-1);
+}
+
+.bg-img .container .buttons .btn-2{
+  background-color: var(--progress-bar-bg);
+}
+
+
+/* Volunteer Section Styling */
+.volunteer .container .subheading{
+  font-family: roboto, sans-serif;
+  color: var(--title-text);
+}
+
+.volunteer .container .card .card-body .position{
+  font-family: roboto, sans-serif;
+  color: var(--title-text);
+}
+
+.volunteer .container .card .card-body ul li a{
+  background-color: var(--icon-color-1);
+}
+
+.volunteer .container .card .card-body p{
+  color: var(--para-text);
+  font-family: roboto, sans-serif;
+}
+
+.volunteer .container .card .card-body{
+  background-color: var(--white);
+}
+
+.volunteer .container .card:hover .card-body{
+  background-color: var(--progress-bar-bg);
+}
+
+.volunteer .container .card:hover .card-body .card-title, .volunteer .container .card:hover .card-body .position{
+  color: white;
+}
+
+.volunteer .container .card:hover .card-body p{
+  color: var(--text-color);
+}
+
+.volunteer .container .card:hover .card-body li a{
+  background-color: var(--text-color);
+}
+
+
+/* Testimonial Section Styling */
+.testimonial{
+  height: 90vh;
+  min-height: 100%;
+  position: relative;
+  background: linear-gradient(to top, rgb(1, 81, 83, 0.6), rgba(1, 81, 83, 0.8)), url(/src/Images/testimonial-bg.jpg) center/cover no-repeat fixed;
+}
+
+.testimonial .container h6{
+  font-family: roboto, sans-serif;
+}
+
+.testimonial .container h5{
+  font-family: roboto, sans-serif;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+}
+
+.testimonial .container .carousel-inner .carousel-item .card-d{
+  background-color: var(--icon-color-1);
+}
+
+.testimonial .container .carousel-inner .carousel-item .card .icon{
+  background-color: var(--icon-color-1);
+}
+
+
+.testimonial .container .carousel-inner .carousel-item .card-d .icon{
+  background-color: #F3F0EB;
+  color: var(--icon-color-1);
+}
+
+.testimonial .container .carousel-inner .carousel-item .card .card-body p{
+  color: var(--para-text);
+  font-family: roboto, sans-serif;
+  line-height: 2rem;
+}
+
+.testimonial .container .carousel-inner .carousel-item .card .name{
+  font-family: roboto, sans-serif;
+  color: var(--title-text);
+}
+
+.testimonial .container .carousel-inner .carousel-item .card .position{
+  font-family: roboto, sans-serif;
+  color: var(--para-text);
+}
+
+/* Do You Care Section Styling */
+.care .container .row .subheading{
+  font-family: roboto, sans-serif;
+  color: var(--title-text);
+} 
+
+.care .container .row p{
+  font-family: roboto, sans-serif;
+  color: var(--para-text);
+}
+
+.care .container .row .btn{
+  background-color: var(--progress-bar-bg);
+  font-family: roboto, sans-serif;
+}
+
+
+/* blog Section Styling */
+.blog .container .subheading{
+  color: var(--title-text);
+  font-family: roboto, sans-serif;
+}
+
+.blog .container h2{
+  color: var(--header-text);
+}
+
+.blog .container .row .card .card-body .meta{
+  background-color: #dddad6;
+  font-size: 0.7rem;
+}
+
+.blog .container .row .card .card-body .meta a, .blog .container .row .card .card-body .meta i{
+  color: var(--icon-color-1);
+}
+
+.blog .container .row .card .card-body .meta span{
+  font-family: roboto, sans-serif;
+  color: var(--para-text);
+}
+
+.blog .container .row .card .card-body .heading a{
+  color: #4b3f22;
+}
+
+.blog .container .row .card .card-body .heading:hover a{
+  color: var(--title-text);
+}
+
+.blog .container .row .card .card-body .card-text{
+  color: var(--para-text);
+  font-family: roboto, sans-serif;
+}
+
+.blog .container .row .card .card-body p .btn{
+  background-color: var(--progress-bar-bg);
+  font-family: roboto, sans-serif;
+}
+
+.blog .container ul li{
+  background-color: var(--white);
+}
+
+.blog .container ul .first{
+  background-color: var(--icon-color-1);
+}
+
+.blog .container ul li:hover{
+  background-color: var(--icon-color-1);
+}
+
+.blog .container ul li:hover a{
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+.blog .container ul a{
+  color: var(--header-text);
+  font-family: roboto, sans-serif;
+}
+
+.blog .container ul .first a{
+  color: #fff;
+}
+
+
+
+/* Footer Section Styling */
+.footer{
+  background-color: var(--footer-bg);
+}
+
+.footer .container .row .navbar-brand{
+  color: var(--white);
+}
+
+.footer .container .row .navbar-brand small{
+  color: var(--title-text);
+}
+
+.footer .container .row p{
+  font-family: roboto, sans-serif;
+}
+
+.footer .container .row .footer-social li{
+  background: var(--icon-color-1);
+}
+
+.footer .container .row h2{
+  font-family: roboto , sans-serif
+}
+
+.footer .container .row .card .card-body .meta a{
+  font-family: roboto, sans-serif;
+  font-size: 0.8rem;
+  color: var(--para-text);
+}
+
+.footer .container .row .footer-widget ul li a .text{
+  color: #F3F0EB;
+}
+
+.footer .container-fluid{
+  background-color: #05393b;
+}
+
+.footer .container-fluid p{
+  color: var(--white);
+  font-family: roboto, sans-serif;
+}
+
+.footer .container-fluid p i{
+  color: var(--para-text);
+}
+
+
+/* Causes Page Styling */
+
+.causes .container .row .card{
+  background: #f3f0eb;
+}
+
+.causes .container .row .card-text{
+  color: var(--para-text);
+}
+
+.causes .container .row .card .card-body a{
+  background-color: var(--icon-color-1);
+  top: 35%;
+  left: 38%;
+}
+
+.causes .container .row .card .card-body .progress-desc{
+  background-color: #dddad6;
+}
+
+.causes .container .row .card:hover .card-body .progress-desc{
+  background-color: var(--icon-color-1);
+}
+
+.causes .container .row .card .card-body .progress-bar{
+  background-color: var(--progress-bar-bg);
+}
+
+.causes .container .row button{
+  color: transparent;
+}
+
+.causes .container ul li{
+  background-color: var(--white);
+}
+
+.causes .container ul .first{
+  background-color: var(--icon-color-1);
+}
+
+.causes .container ul li:hover{
+  background-color: var(--icon-color-1);
+}
+
+.causes .container ul li:hover a{
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+.causes .container ul a{
+  color: var(--header-text);
+  font-family: roboto, sans-serif;
+}
+
+.causes .container ul .first a{
+  color: #fff;
+}
+
+
+.contact .contact-wrap p{
+  font-family: roboto, sans-serif;
+  color: var(--para-text);
+}
+
+.contact .contact-wrap .text span{
+  font-family: roboto, sans-serif;
+  color: var(--header-text);
+  font-size: 0.8rem;
+}
+
+.contact .contact-wrap .text a{
+  font-family: roboto, sans-serif;
+  color: var(--title-text);
+}
+
+.contact .contact-wrap .form-group input{
+  font-family: robot, sans-serif;
+}
+
+.contact .contact-wrap .form-group textarea{
+  font-family: roboto, sans-serif;
+  min-height: 10rem;
+}
+
+.contact .contact-wrap .form-group button{
+  font-family: robot, sans-serif;
+  background-color: var(--icon-color-1);
+  color: var(--white);
+}
+
+.contact .contact-wrap .social-media a{
+  font-family: roboto, sans-serif;
+  font-size: 0.8rem;
+  color: var(--title-text);
+}
