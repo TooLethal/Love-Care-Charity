@@ -94,7 +94,7 @@ a {
   height: 100vh;
   min-height: 100%;
   position: relative;
-  background: url(/src/Images/hero-bg.jpeg) center/cover no-repeat fixed;
+  background: url(Images/hero-bg.jpeg) center/cover no-repeat fixed;
 }
 
 .hero-wrap .card .container .row .heading span {
@@ -115,7 +115,7 @@ a {
   height: 90vh;
   min-height: 100%;
   position: relative;
-  background: linear-gradient(to top, rgb(0, 0, 0, 0.2), rgba(29, 56, 55, 0.959)), url(/src/Images/pages-main-bg.jpg) center/cover no-repeat fixed;
+ background: linear-gradient(to top, rgb(0, 0, 0, 0.2), rgba(29, 56, 55, 0.959)), url(Images/pages-main-bg.jpg) center/cover no-repeat fixed;
 }
 
 .hero-wrap-pages .card .container .row .heading span {
@@ -194,7 +194,7 @@ a {
   height: 90vh;
   min-height: 100%;
   position: relative;
-  background: linear-gradient(to top, rgb(1, 81, 83, 0.6), rgba(1, 81, 83, 0.8)), url(/src/Images/statistics-bg.jpg) center/cover no-repeat fixed;
+  background: linear-gradient(to top, rgb(1, 81, 83, 0.6), rgba(1, 81, 83, 0.8)), url(Images/statistics-bg.jpg) center/cover no-repeat fixed;
 }
 
 .statistics .container h6{
@@ -265,7 +265,7 @@ a {
   height: 90vh;
   min-height: 100%;
   position: relative;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/src/Images/volunteer-bg.jpg) center/cover no-repeat fixed;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Images/volunteer-bg.jpg) center/cover no-repeat fixed;
 }
 
 .bg-img .container h6{
@@ -331,7 +331,7 @@ a {
   height: 90vh;
   min-height: 100%;
   position: relative;
-  background: linear-gradient(to top, rgb(1, 81, 83, 0.6), rgba(1, 81, 83, 0.8)), url(/src/Images/testimonial-bg.jpg) center/cover no-repeat fixed;
+ background: linear-gradient(to top, rgb(1, 81, 83, 0.6), rgba(1, 81, 83, 0.8)), url(Images/testimonial-bg.jpg) center/cover no-repeat fixed;
 }
 
 .testimonial .container h6{
